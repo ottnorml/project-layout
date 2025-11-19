@@ -22,6 +22,7 @@
 * [فارسی](README_fa.md)
 * [Беларуская](README_be.md)
 * [বাংলা](README_bn.md)
+* [Deutsch](README_de.md)
 
 ## Überblick
 
