@@ -21,6 +21,7 @@ Traducciones:
 * [हिन्दी](README_hi.md)
 * [Беларуская](README_be.md)
 * [বাংলা](README_bn.md)
+* [Deutsch](README_de.md)
 
 ## Resumen
 
