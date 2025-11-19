@@ -68,7 +68,7 @@ Setzen Sie nicht viel Code in das Anwendungsverzeichnis. Wenn Sie denken, dass d
 
 Es ist üblich, eine kleine `main` Funktion zu haben, die Code aus den `/internal` und `/pkg` Verzeichnissen importiert und aufruft und nichts anderes.
 
-Siehe das [`/cmd`](cmd/README.md) Verzeichnis für Beispiele.
+Siehe das [`/cmd`](cmd/README_de.md) Verzeichnis für Beispiele.
 
 ### `/internal`
 
@@ -84,7 +84,7 @@ Bibliothekscode, der von externen Anwendungen verwendet werden darf (z.B. `/pkg/
 
 Es ist auch eine Möglichkeit, Go-Code an einem Ort zu gruppieren, wenn Ihr Root-Verzeichnis viele Nicht-Go-Komponenten und Verzeichnisse enthält, was es einfacher macht, verschiedene Go-Tools auszuführen (wie in diesen Vorträgen erwähnt: [`Best Practices for Industrial Programming`](https://www.youtube.com/watch?v=PTE4VJIdHPg) von GopherCon EU 2018, [GopherCon 2018: Kat Zien - How Do You Structure Your Go Apps](https://www.youtube.com/watch?v=oL6JBUk6tj0) und [GoLab 2018 - Massimiliano Pippi - Project layout patterns in Go](https://www.youtube.com/watch?v=3gQa1LWwuzk)).
 
-Siehe das [`/pkg`](pkg/README.md) Verzeichnis, wenn Sie sehen möchten, welche beliebten Go-Repos dieses Projektlayoutmuster verwenden. Dies ist ein gängiges Layoutmuster, aber es ist nicht universell akzeptiert und einige in der Go-Community empfehlen es nicht.
+Siehe das [`/pkg`](pkg/README_de.md) Verzeichnis, wenn Sie sehen möchten, welche beliebten Go-Repos dieses Projektlayoutmuster verwenden. Dies ist ein gängiges Layoutmuster, aber es ist nicht universell akzeptiert und einige in der Go-Community empfehlen es nicht.
 
 Es ist in Ordnung, es nicht zu verwenden, wenn Ihr App-Projekt wirklich klein ist und eine zusätzliche Verschachtelungsebene nicht viel Wert hinzufügt (es sei denn, Sie möchten es wirklich :-)). Denken Sie darüber nach, wenn es groß genug wird und Ihr Root-Verzeichnis ziemlich voll wird (besonders wenn Sie viele Nicht-Go-App-Komponenten haben).
 
@@ -104,7 +104,7 @@ Beachten Sie, dass Go seit [`1.13`](https://golang.org/doc/go1.13#modules) auch 
 
 OpenAPI/Swagger Spezifikationen, JSON Schema Dateien, Protokolldefinitionsdateien.
 
-Siehe das [`/api`](api/README.md) Verzeichnis für Beispiele.
+Siehe das [`/api`](api/README_de.md) Verzeichnis für Beispiele.
 
 ## Web Anwendungsverzeichnisse
 
@@ -130,7 +130,7 @@ Skripte zur Durchführung verschiedener Build-, Installations-, Analyse- usw. Op
 
 Diese Skripte halten das Makefile auf oberster Ebene klein und einfach (z.B. [`https://github.com/hashicorp/terraform/blob/main/Makefile`](https://github.com/hashicorp/terraform/blob/main/Makefile)).
 
-Siehe das [`/scripts`](scripts/README.md) Verzeichnis für Beispiele.
+Siehe das [`/scripts`](scripts/README_de.md) Verzeichnis für Beispiele.
 
 ### `/build`
 
@@ -148,7 +148,7 @@ IaaS, PaaS, System- und Container-Orchestrierungsbereitstellungskonfigurationen 
 
 Zusätzliche externe Test-Apps und Testdaten. Fühlen Sie sich frei, das `/test` Verzeichnis so zu strukturieren, wie Sie möchten. Für größere Projekte macht es Sinn, ein Daten-Unterverzeichnis zu haben. Sie können zum Beispiel `/test/data` oder `/test/testdata` haben, wenn Sie möchten, dass Go ignoriert, was in diesem Verzeichnis ist. Beachten Sie, dass Go auch Verzeichnisse oder Dateien ignoriert, die mit "." oder "_" beginnen, sodass Sie mehr Flexibilität bei der Benennung Ihres Testdatenverzeichnisses haben.
 
-Siehe das [`/test`](test/README.md) Verzeichnis für Beispiele.
+Siehe das [`/test`](test/README_de.md) Verzeichnis für Beispiele.
 
 ## Andere Verzeichnisse
 
@@ -156,19 +156,19 @@ Siehe das [`/test`](test/README.md) Verzeichnis für Beispiele.
 
 Design- und Benutzerdokumente (zusätzlich zu Ihrer godoc-generierten Dokumentation).
 
-Siehe das [`/docs`](docs/README.md) Verzeichnis für Beispiele.
+Siehe das [`/docs`](docs/README_de.md) Verzeichnis für Beispiele.
 
 ### `/tools`
 
 Unterstützende Tools für dieses Projekt. Beachten Sie, dass diese Tools Code aus den `/pkg` und `/internal` Verzeichnissen importieren können.
 
-Siehe das [`/tools`](tools/README.md) Verzeichnis für Beispiele.
+Siehe das [`/tools`](tools/README_de.md) Verzeichnis für Beispiele.
 
 ### `/examples`
 
 Beispiele für Ihre Anwendungen und/oder öffentlichen Bibliotheken.
 
-Siehe das [`/examples`](examples/README.md) Verzeichnis für Beispiele.
+Siehe das [`/examples`](examples/README_de.md) Verzeichnis für Beispiele.
 
 ### `/third_party`
 
@@ -186,7 +186,7 @@ Andere Assets, die zu Ihrem Repository gehören (Bilder, Logos usw.).
 
 Dies ist der Ort, um die Website-Daten Ihres Projekts abzulegen, wenn Sie nicht GitHub Pages verwenden.
 
-Siehe das [`/website`](website/README.md) Verzeichnis für Beispiele.
+Siehe das [`/website`](website/README_de.md) Verzeichnis für Beispiele.
 
 ## Verzeichnisse, die Sie nicht haben sollten
 
